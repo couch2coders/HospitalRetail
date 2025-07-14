@@ -1,10 +1,10 @@
 
 <!-- Header Image -->
 <p align="center">
-  <img src=".\img\touchpoint_logo.png" alt="Project Header" style="width:20%; max-width:400px;">
+  <img src=".\img\touchpoint_logo.png" alt="Project Header" style="width:40%; max-width:400px;">
 </p>
 
-# 💡 Hospital Cafeteria Retail 
+# 🏥 Hospital Cafeteria Retail 
 
 This case study provides a holistic recommendation of TouchPoint Health Services food cafeteria. 
 
@@ -18,7 +18,7 @@ I provide analysis for the following business aspects:
   - Healthy Incentive Pricing
   - Future Recommendations 
 
-## 📖 Table of Contents
+# 📖 Table of Contents
 
 - [Data Prep](#data-prep)
 - [NLP Data Model](#nlp-data-model)
@@ -26,7 +26,7 @@ I provide analysis for the following business aspects:
 - [Tableau](#tableau)
 
   
-# Data Prep
+# 📊 Data Prep
 
 ### Google BigQuery (GBQ)
 Utilized [GBQ]([https://example.com](https://console.cloud.google.com/bigquery?hl=en&inv=1&invt=Ab2rzQ&project=zeta-matrix-337222&ws=!1m0)) as data warehouse & primary data prep tool
@@ -46,7 +46,7 @@ Utilized [GBQ]([https://example.com](https://console.cloud.google.com/bigquery?h
   -  Must have at least 2 separate months of data (remove new items from scrub)
 
 
-# NLP Data Model
+# 🙊 NLP Data Model
 
 Purpose of model is to identify item type category & healthy/unhealthy without having a pretrained dataset
 <br>
@@ -91,7 +91,10 @@ Including 'Vegetables' did not improve the model as certain items that would fit
 Only using Bev/Food did not yield desired results as many drinks would be listed as food instead of drinks (based on top 50 categories)
 <br>
 <br>
-# Analysis
+# 📈 Analysis
 
+Full Analysis can be found [here](https://github.com/couch2coders/HospitalRetail/tree/main/Viz)
 
-# Tableau
+# 🖥️ Tableau
+
+Tableau published dashboards can be viewed [here](https://public.tableau.com/app/profile/candice.filar/viz/Hospital_Retail_CaseStudy/RevenueSpreadbyItem)
