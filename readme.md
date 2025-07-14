@@ -20,7 +20,7 @@ I provide analysis for the following business aspects:
 
 # 📖 Table of Contents
 
-- [Data Prep](#data-prep)
+- [📊 Data Prep](#data-prep)
 - [NLP Data Model](#nlp-data-model)
 - [Analysis](#analysis)
 - [Tableau](#tableau)
