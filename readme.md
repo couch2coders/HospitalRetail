@@ -20,13 +20,13 @@ I provide analysis for the following business aspects:
 
 # 📖 Table of Contents
 
-- [📊 Data Prep](#data-prep)
+- [Data Prep](#data-prep)
 - [NLP Data Model](#nlp-data-model)
 - [Analysis](#analysis)
 - [Tableau](#tableau)
 
   
-# 📊 Data Prep
+# <h1 id="data-prep">📊 Data Prep</h1>
 
 ### Google BigQuery (GBQ)
 Utilized [GBQ]([https://example.com](https://console.cloud.google.com/bigquery?hl=en&inv=1&invt=Ab2rzQ&project=zeta-matrix-337222&ws=!1m0)) as data warehouse & primary data prep tool
@@ -46,8 +46,7 @@ Utilized [GBQ]([https://example.com](https://console.cloud.google.com/bigquery?h
   -  Must have at least 2 separate months of data (remove new items from scrub)
 
 
-# 🙊 NLP Data Model
-
+# <h1 id="nlp-data-model">🙊 NLP Data Model</h1>
 Purpose of model is to identify item type category & healthy/unhealthy without having a pretrained dataset
 <br>
 <br>
@@ -91,10 +90,12 @@ Including 'Vegetables' did not improve the model as certain items that would fit
 Only using Bev/Food did not yield desired results as many drinks would be listed as food instead of drinks (based on top 50 categories)
 <br>
 <br>
-# 📈 Analysis
+# <h1 id="analysis">📈 Analysis</h1>
+
 
 Full Analysis can be found [here](https://github.com/couch2coders/HospitalRetail/tree/main/Viz)
 
-# 🖥️ Tableau
+# <h1 id="tableau">🖥️ Tableau</h1>
+
 
 Tableau published dashboards can be viewed [here](https://public.tableau.com/app/profile/candice.filar/viz/Hospital_Retail_CaseStudy/RevenueSpreadbyItem)
